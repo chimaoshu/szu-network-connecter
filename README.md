@@ -1,9 +1,13 @@
 <div align="center">
-  <img src="https://i.loli.net/2020/09/19/W5ojBY1p8MmOG7X.png" alt=""/>
+  <img src="https://static.ceynri.cn/W5ojBY1p8MmOG7X.png" alt=""/>
   <h1>深大校园网络一键登录认证 - 浏览器插件</h1>
 </div>
 
 针对深圳大学校园网有线连接与 WIFI 连接复杂的登录认证方式，给出一键快速登录认证解决方案的浏览器扩展插件。支持 Chrome/Firefox 浏览器。
+
+> 作者（[@ceynri](https://github.com/ceynri)）目前已经毕业，在无校内网的条件下，本项目不再主动提供维护。但在校园网络提供商未对服务进行更改的情况下，本插件仍然保持可用。
+> 
+> 项目支持 [Pull Requests](https://github.com/ceynri/szu-network-connecter/pulls)，本插件出现问题时如有同学愿意提供维护并做好自测，我可以帮忙提交商店。
 
 ## 基本特性
 
@@ -25,18 +29,18 @@
 
 ## 安装方式
 
-### Chrome 浏览器
+### Chrome / Edge 浏览器
 
 两种途径：
 
 1. 直接通过 [Chrome 商店](https://chrome.google.com/webstore/detail/深大校园网络登录/mmeaolnimopgipjfbgobdlgkojojonop/)进行安装
-2. 通过 [Releases](https://github.com/ceynri/szu-network-connecter/releases) 下载对应的 **crx** 文件，然后打开 Chrome 浏览器的扩展程序界面，将 crx 文件拖入浏览器窗口即可
+2. 或者通过 [Releases](https://github.com/ceynri/szu-network-connecter/releases) 下载对应的 **crx** 文件，然后打开 Chrome 浏览器的扩展程序界面，将 crx 文件拖入浏览器窗口即可
 
 > 以 Chromium 内核的其他浏览器（如 Edge Beta、360极速浏览器等）应该也可以通过 crx 的方式进行安装。
 
 ### Firefox 浏览器
 
-Firefox Addons 商店不允许上架受限受众的插件，故只好通过单独下载的形式安装：
+本插件曾经上架过 Firefox Addons 商店，但由于其不允许上架受限受众的插件而被下架，故目前只好通过单独下载的形式安装：
 
 - [Releases](https://github.com/ceynri/szu-network-connecter/releases) 选择 xpi 后缀的 Firefox 插件进行下载
 - 在 Firefox 浏览器 Ctrl+Shift+A 打开附加组件管理器
@@ -48,30 +52,19 @@ Firefox Addons 商店不允许上架受限受众的插件，故只好通过单�
 
 1. 点击“去填写”，输入你的**卡号**（不是学号）和密码并点击保存按钮
 
-    ![launch screen.png](https://i.loli.net/2020/10/12/cg26MhuBJmSakCQ.png)
+    ![launch screen.png](https://static.ceynri.cn/cg26MhuBJmSakCQ.png)
 
-    ![input.jpg](https://i.loli.net/2020/09/14/CTSyHFpQDWXd72U.jpg)
+    ![input.jpg](https://static.ceynri.cn/CTSyHFpQDWXd72U.jpg)
 
 2. 保存成功后，点击登录即可
 
-    ![login.jpg](https://i.loli.net/2020/09/14/vFq1Qu7Dn8UCVrb.jpg)
+    ![login.jpg](https://static.ceynri.cn/vFq1Qu7Dn8UCVrb.jpg)
 
-    ![logined.jpg](https://i.loli.net/2020/09/14/KBgxod5qu3WlJfN.jpg)
+    ![logined.jpg](https://static.ceynri.cn/KBgxod5qu3WlJfN.jpg)
 
 3. 如果出现报错或登录超时，请先检查个人信息、网络等设置是否有问题。如无法解决可以提 issue 并提供相关行为与环境信息
 
-    ![error.jpg](https://i.loli.net/2020/09/14/RuWUZjokFNHPt2Y.jpg)
-
-<br>
-
-## 预期特性
-
-> 大概率是会鸽了，只有影响到我使用的问题我才会后续跟进修复或添加新特性，有意者欢迎直接 PR
-
-- [x] 增加对办公区的 WIFI 模式的登录适配
-- [ ] 增加自动登录选项，点击插件图标后自动登录，无需再点击登录按钮
-- [ ] input 输入框增加 <kbd>Enter</kbd> 键监听
-- [ ] 登录成功后延时几秒自动关闭弹窗
+    ![error.jpg](https://static.ceynri.cn/RuWUZjokFNHPt2Y.jpg)
 
 <br>
 
