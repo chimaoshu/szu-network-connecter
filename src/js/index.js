@@ -1,4 +1,4 @@
-import { login } from './login-post.js';
+import { login, newLogin } from './login-post.js';
 import { show, hide, warn } from './animation.js';
 
 import './encrypt.js'
@@ -141,6 +141,7 @@ const showResult = (isSuccess, msg) => {
     Promise.race([
       login('nth'),
       login('wifi'),
+      newLogin(),
       timeoutTimer,
     ])
       .then((res) => {
